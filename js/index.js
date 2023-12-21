@@ -9,3 +9,9 @@ $(document).ready(function () {
         }
     );
 });
+
+    $('.inline-block a').on("click", function() {
+        console.log("You clicked a nav bar item")
+
+    });
+
